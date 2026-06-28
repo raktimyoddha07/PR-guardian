@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Local env (secrets)
+.env
+
+# GitHub App private key — never commit
+github-app.pem
+*.pem
+
+# Tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
